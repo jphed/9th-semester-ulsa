@@ -1,0 +1,849 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='60610a96e50e1bc2a1f21c1b9a6b6ef987684971cde193a0b210cb315ea19a28' _.fcp.WorkbookFingerprinting.true...creator-author-id='60610a96e50e1bc2a1f21c1b9a6b6ef987684971cde193a0b210cb315ea19a28' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='60610a96e50e1bc2a1f21c1b9a6b6ef987684971cde193a0b210cb315ea19a28' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='60610a96e50e1bc2a1f21c1b9a6b6ef987684971cde193a0b210cb315ea19a28' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Ventas Videojuegos (Venta de videojuegos)' inline='true' name='federated.0u1uho00pydwzz1ero7n60xgxs17' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Venta de videojuegos' name='excel-direct.1f2bkvi17mp49215idepc15evuhc'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jorge/Downloads/Venta de videojuegos.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1f2bkvi17mp49215idepc15evuhc' name='Ventas Videojuegos' table='[&apos;Ventas Videojuegos$&apos;]' type='table'>
+          <columns gridOrigin='A1:J16327:no:A1:J16327:0' header='yes' outcome='2'>
+            <column datatype='string' name='Nombre' ordinal='0' />
+            <column datatype='string' name='Plataforma' ordinal='1' />
+            <column datatype='integer' name='Año' ordinal='2' />
+            <column datatype='string' name='Genero' ordinal='3' />
+            <column datatype='string' name='Editorial' ordinal='4' />
+            <column datatype='real' name='Ventas NA' ordinal='5' />
+            <column datatype='real' name='Ventas EU' ordinal='6' />
+            <column datatype='real' name='Ventas JP' ordinal='7' />
+            <column datatype='real' name='Ventas Otros' ordinal='8' />
+            <column datatype='real' name='Ventas Global' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J16327:no:A1:J16327:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nombre</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nombre]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Nombre</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plataforma</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Plataforma]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Plataforma</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Año</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Año]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Año</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genero</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Genero]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Genero</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Editorial</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Editorial]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Editorial</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ventas NA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ventas NA]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Ventas NA</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ventas EU</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ventas EU]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Ventas EU</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ventas JP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ventas JP]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Ventas JP</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ventas Otros</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ventas Otros]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Ventas Otros</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ventas Global</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ventas Global]</local-name>
+            <parent-name>[Ventas Videojuegos]</parent-name>
+            <remote-alias>Ventas Global</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Año]' role='dimension' type='ordinal' />
+      <column caption='Ventas Videojuegos' datatype='table' name='[__tableau_internal_object_id__].[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/jorge/AppData/Local/Temp/TableauTemp/#TableauTemp_1epmkm31636be21ccxf880vxff7q.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/16/2026 10:58:02 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Nombre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Nombre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nombre</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6879</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Plataforma</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Plataforma]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Plataforma</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Año</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Año]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Año</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genero</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genero]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genero</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Editorial</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Editorial]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Editorial</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>410</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ventas NA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ventas NA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ventas NA</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>333</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ventas EU</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ventas EU]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ventas EU</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>238</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ventas JP</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ventas JP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ventas JP</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>186</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ventas Otros</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ventas Otros]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ventas Otros</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>115</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ventas Global</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ventas Global]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ventas Global</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Ventas Videojuegos</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>504</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Estados Unidos&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Ventas Videojuegos' id='Ventas Videojuegos_9157C55C49764B0C932E6684599DF7BA'>
+            <properties context=''>
+              <relation connection='excel-direct.1f2bkvi17mp49215idepc15evuhc' name='Ventas Videojuegos' table='[&apos;Ventas Videojuegos$&apos;]' type='table'>
+                <columns gridOrigin='A1:J16327:no:A1:J16327:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Nombre' ordinal='0' />
+                  <column datatype='string' name='Plataforma' ordinal='1' />
+                  <column datatype='integer' name='Año' ordinal='2' />
+                  <column datatype='string' name='Genero' ordinal='3' />
+                  <column datatype='string' name='Editorial' ordinal='4' />
+                  <column datatype='real' name='Ventas NA' ordinal='5' />
+                  <column datatype='real' name='Ventas EU' ordinal='6' />
+                  <column datatype='real' name='Ventas JP' ordinal='7' />
+                  <column datatype='real' name='Ventas Otros' ordinal='8' />
+                  <column datatype='real' name='Ventas Global' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Grafica1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Ventas por Género</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ventas Videojuegos (Venta de videojuegos)' name='federated.0u1uho00pydwzz1ero7n60xgxs17' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u1uho00pydwzz1ero7n60xgxs17'>
+            <column datatype='string' name='[Genero]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Ventas Global]' role='measure' type='quantitative' />
+            <column-instance column='[Genero]' derivation='None' name='[none:Genero:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ventas Global]' derivation='Sum' name='[sum:Ventas Global:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Genero:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]</rows>
+        <cols>[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Genero:nk]</cols>
+      </table>
+      <simple-id uuid='{E88EACE6-FBC5-4597-A5DA-9DA308FA9F6E}' />
+    </worksheet>
+    <worksheet name='Grafica1.5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Ventas Globales totales por Plataforma</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ventas Videojuegos (Venta de videojuegos)' name='federated.0u1uho00pydwzz1ero7n60xgxs17' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u1uho00pydwzz1ero7n60xgxs17'>
+            <column aggregation='Sum' datatype='integer' name='[Año]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Plataforma]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Ventas Global]' role='measure' type='quantitative' />
+            <column-instance column='[Año]' derivation='None' name='[none:Año:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Plataforma]' derivation='None' name='[none:Plataforma:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ventas Global]' derivation='Sum' name='[sum:Ventas Global:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Año:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Año:ok]' member='2007' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2008' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2009' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2010' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2011' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2012' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2013' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2014' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2015' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2016' />
+              <groupfilter function='member' level='[none:Año:ok]' member='2017' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Plataforma:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Año:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]</rows>
+        <cols>[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Plataforma:nk]</cols>
+      </table>
+      <simple-id uuid='{C6677184-C63E-4C04-BC60-F842FD139E09}' />
+    </worksheet>
+    <worksheet name='Grafica2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Ventas por Año</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ventas Videojuegos (Venta de videojuegos)' name='federated.0u1uho00pydwzz1ero7n60xgxs17' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u1uho00pydwzz1ero7n60xgxs17'>
+            <column aggregation='Sum' datatype='integer' name='[Año]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Ventas Global]' role='measure' type='quantitative' />
+            <column-instance column='[Año]' derivation='None' name='[none:Año:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Año]' derivation='Sum' name='[sum:Año:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ventas Global]' derivation='Sum' name='[sum:Ventas Global:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0u1uho00pydwzz1ero7n60xgxs17].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Año:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0u1uho00pydwzz1ero7n60xgxs17].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]' field-type='quantitative' max='784.35889478518675' min='-142.75404396834199' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Global:qk]</rows>
+        <cols>[federated.0u1uho00pydwzz1ero7n60xgxs17].[none:Año:ok]</cols>
+      </table>
+      <simple-id uuid='{AD62861D-948D-4F0C-B017-30489547ECBF}' />
+    </worksheet>
+    <worksheet name='Grafica3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Benton Sans Book'>Ventas por region</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ventas Videojuegos (Venta de videojuegos)' name='federated.0u1uho00pydwzz1ero7n60xgxs17' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u1uho00pydwzz1ero7n60xgxs17'>
+            <column datatype='real' name='[Ventas EU]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Ventas JP]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Ventas NA]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Ventas Otros]' role='measure' type='quantitative' />
+            <column-instance column='[Ventas EU]' derivation='Sum' name='[sum:Ventas EU:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ventas JP]' derivation='Sum' name='[sum:Ventas JP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ventas NA]' derivation='Sum' name='[sum:Ventas NA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ventas Otros]' derivation='Sum' name='[sum:Ventas Otros:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0u1uho00pydwzz1ero7n60xgxs17].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas EU:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas JP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas NA:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Otros:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0u1uho00pydwzz1ero7n60xgxs17].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas Otros:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas JP:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas EU:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0u1uho00pydwzz1ero7n60xgxs17].[sum:Ventas NA:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0u1uho00pydwzz1ero7n60xgxs17].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0u1uho00pydwzz1ero7n60xgxs17].[:Measure Names]</rows>
+        <cols>[federated.0u1uho00pydwzz1ero7n60xgxs17].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{1B550B2E-B470-45D6-9580-917E522B2DF1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Análisis de Ventas de Videojuegos.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='9' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='4535' id='10' type-v2='title' w='97538' x='1231' y='930'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='93605' id='7' type-v2='layout-basic' w='97538' x='1231' y='5465'>
+              <zone h='93605' id='3' name='Grafica1' w='43384' x='1231' y='5465'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='93605' id='5' name='Grafica3' w='26154' x='72615' y='5465'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='93605' id='6' name='Grafica2' w='28000' x='44615' y='5465'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontcolor='#000000' fontname='Benton Sans Book'>Análisis de Ventas de Videojuegos.</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='13' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone h='4535' id='10' type-v2='title' w='97538' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93605' id='3' is-fixed='true' name='Grafica1' w='43384' x='1231' y='5465'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93605' id='6' is-fixed='true' name='Grafica2' w='28000' x='44615' y='5465'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93605' id='5' is-fixed='true' name='Grafica3' w='26154' x='72615' y='5465'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F57DFA02-7503-4923-8F36-25751791B2D5}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Grafica2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4E6E606D-2E30-4412-B5F4-F03A18F6DB8C}' />
+    </window>
+    <window class='worksheet' name='Grafica3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3EFA5542-BE92-4E99-B6EE-67358767F56C}' />
+    </window>
+    <window class='worksheet' name='Grafica1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DDC92F33-D529-4EB0-9C88-CBCCE6640391}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Grafica1.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{87F957AF-E6FC-4E4B-9F47-A1A4F9BD0529}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Grafica1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Grafica2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Grafica3' />
+      </viewpoints>
+      <active id='-1' />
+      <device-preview selected='Desktop' visible='true' />
+      <simple-id uuid='{E550A3B5-075C-4678-B549-B67F55B20F9E}' />
+    </window>
+  </windows>
+</workbook>
